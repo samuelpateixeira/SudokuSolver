@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="#ccc"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_insert_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_marginHorizontal="0dp"
+            />
+        <Button
+            android:id="@+id/btn_insert_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_marginHorizontal="0dp"
+            />
+        <Button
+            android:id="@+id/btn_insert_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_marginHorizontal="0dp"
+            />
+        <Button
+            android:id="@+id/btn_insert_4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:layout_marginHorizontal="0dp"
+            />
+        <Button
+            android:id="@+id/btn_insert_5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:layout_marginHorizontal="0dp"
+            />
+        <Button
+            android:id="@+id/btn_insert_6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:layout_marginHorizontal="0dp"
+            />
+        <Button
+            android:id="@+id/btn_insert_7"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:layout_marginHorizontal="0dp"
+            />
+        <Button
+            android:id="@+id/btn_insert_8"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:layout_marginHorizontal="0dp"
+            />
+        <Button
+            android:id="@+id/btn_insert_9"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:layout_marginHorizontal="0dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_solve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="solve"/>
+
+    <Button
+        android:id="@+id/btn_solve_by_only_possible_value_for_cell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="solve by only possible value for cell"/>
+
+    <Button
+        android:id="@+id/btn_solve_by_only_possible_cell_for_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="solve by only possible cell for value"/>
+
+    <Button
+        android:id="@+id/btn_clean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clean"/>
+
+</LinearLayout>
